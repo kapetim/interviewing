@@ -1,0 +1,18 @@
+name: PR
+
+on: pull_request
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build --target lint -t algorithms-lint -f docker/Dockerfile .
+      - run: docker run algorithms-lint
+
+  algorithms:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build --target algorithms -t algorithms-ci -f docker/Dockerfile .
+      - run: docker run algorithms-ci
