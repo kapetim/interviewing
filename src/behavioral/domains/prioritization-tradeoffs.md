@@ -22,3 +22,14 @@ Can you **choose** under finite time: features vs debt, evidence vs hope, scope 
 | 10 | How do you balance perfection and shipping? | Definition of good enough. |
 | 11 | Tell me about a time you had to choose between two urgent requests. | Clear decision criteria. |
 | 12 | How do you handle recurring interrupts vs deep work? | Process story OK if real. |
+
+## Example story shapes
+
+- **Quality gate as a tradeoff** — making a quality practice (e.g. load testing) mandatory despite schedule pressure.
+- **Scope negotiation** — delivering a user-facing feature as a full-stack owner, with explicit cuts.
+- **Capacity vs cost** — planning for a peak event, balancing reliability and spend.
+
+## Gaps and detail drills
+
+- **Drill:** for the quality-gate and scope stories, rehearse **what exactly was deprioritized**, **who signed off**, and **what evidence** you showed (graphs, error budgets, etc.).
+- If “missed deadline” is asked, see [sensitive-prompts](sensitive-prompts.md)—only use a real miss if truth matches.

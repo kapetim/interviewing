@@ -22,3 +22,13 @@ Can you **reduce fuzziness**: clarify success, shrink unknowns, align owners, an
 | 10 | When did you time-box exploration? | Stop condition matters. |
 | 11 | Tell me about a project where the goal was unclear for weeks. | Honest if messy. |
 | 12 | How do you prevent scope creep on your own work? | Personal discipline story. |
+
+## Example story shapes
+
+- **Cross-team dependency unblock** — a large-scope effort stalled by unclear ownership; you clarified, escalated with options, and shipped.
+- **Protocol / integration ambiguity** — implementing an external protocol or integration where the spec was incomplete and you had to define the contract.
+
+## Gaps and detail drills
+
+- **Drill:** for the dependency story — **timeline**, **escalation path**, and **options** you presented when ownership was unclear.
+- Re-read your notes for the dependency story before interviews to remember **one concrete sync or artifact**.

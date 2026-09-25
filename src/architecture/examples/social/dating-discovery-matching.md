@@ -460,7 +460,7 @@ A likes B → record like(A→B)
 B likes A → see like(B→A); query like(A→B) exists → create match
 ```
 
-**Race:** A and B like simultaneously — `UNIQUE(match pair)` + txn — one wins, other idempotent返回 same match.
+**Race:** A and B like simultaneously — `UNIQUE(match pair)` + txn — one wins, the other idempotently returns the same match.
 
 **Not** notification on one-sided like (reduces harassment); optional “someone liked you” paid feature out of scope.
 

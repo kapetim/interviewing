@@ -9,7 +9,7 @@ Template fields for each prompt:
 - What I would do differently
 
 ## Ownership
-1. What was your hardest project in a role?
+1. What was your hardest project?
 2. When did you work without clear requirements?
 3. When did you improve something nobody asked for?
 4. Which system became your de-facto responsibility?
@@ -48,4 +48,4 @@ Template fields for each prompt:
 
 ## Related
 
-- [Question batches (EN/PT)](question-batches.md)
+- [Behavioral prep hub](../README.md)

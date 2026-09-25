@@ -22,3 +22,14 @@ Operating and improving **real systems**: peaks, constraints, incidents, alert n
 | 10 | Tell me about load or performance testing before a big event. | Overlaps quality domain. |
 | 11 | How do you validate a change will not regress production? | Tests, canaries, metrics. |
 | 12 | How do you approach on-call responsibility? | Healthy: limits + fixes. |
+
+## Example story shapes
+
+- **Peak-traffic capacity** — planning and load-testing for a known high-traffic event.
+- **Strict external constraints** — operating a live system under exchange/SLA/vendor limits you could not change.
+- **Multi-region deployment safety** — reducing the blast radius of regional changes and failover.
+- **On-call noise reduction** — fixing recurring root causes to cut pages/toil.
+
+## Gaps and detail drills
+
+- **Drill:** memorize **one number** per story (p99, volume, pages/week, regions) or say what you would verify before claiming.
