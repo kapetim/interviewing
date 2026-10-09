@@ -22,7 +22,7 @@ Three pillars:
 
 ```bash
 # Lint all markdown (CI)
-docker build --target lint -t interviewing-lint -f docker/Dockerfile .
+docker build --target lint -t interviewing-lint -f docker/interviewing.Dockerfile .
 docker run interviewing-lint
 
 # Compile every C++ template / solution

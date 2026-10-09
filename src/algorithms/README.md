@@ -57,7 +57,7 @@ Every `.cpp` under `src/algorithms/` (flags: `g++ -std=c++17 -O2 -Wall`).
 
 ```bash
 # Local / CI (Docker)
-docker build --target algorithms -t algorithms-ci -f docker/Dockerfile .
+docker build --target algorithms -t algorithms-ci -f docker/interviewing.Dockerfile .
 docker run algorithms-ci
 
 # Or directly
